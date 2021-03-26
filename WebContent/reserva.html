@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Reserva de Habitación</h1>
+    <form action="" method="post">
+        
+            <legend>Datos personales</legend>
+            <p>
+                <label for="nombres">Nombres Completos</label> <input type="text" id="nombres"
+                    name="nombres" size="50" maxlength="100"
+                    placeholder="Ingrese sus nombres" autofocus required />
+            </p>
+                <label for="fnacimiento">Fecha de llegada</label> <input
+                    type="date" id="fnacimiento" name="fnacimiento" required />
+            </p>
+            <p>
+                <label for="apellidos">Número de Personas</label> <input type="text"
+                    id="apellidos" name="apellidos" size="50" maxlength="100"
+                    placeholder="Ingrese Nro de Personas" value="" required />
+            </p>
+            <p>
+            
+            <p>
+                <label for="distrito">Tipo de Habitación</label> <select id="distrito"
+                    name="distrito" required>
+                    <option value="" selected="" disabled="">Seleccione un
+                        valor</option>
+                    <option value="01">1 Cama</option>
+                    <option value="02">2 Camas</option>                    
+                </select>
+            </p>
+            
+		<p>
+		<input type="submit" value="Registrar"/>
+		</p>
+
+            
+	</form>            
+</body>
+</html>
